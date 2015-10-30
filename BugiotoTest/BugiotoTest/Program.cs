@@ -10,11 +10,7 @@ namespace BugiotoTest
     {
         static void Main(string[] args)
         {
-            Keyspace.Prepare();
-            //(new Sample()).QueryKeyspaces().Wait();
-
-
-            Console.ReadLine();
+            new Test().Run();
         }
     }
 }
